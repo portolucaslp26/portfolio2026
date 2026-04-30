@@ -71,7 +71,7 @@ export default function Contato() {
             </div>
 
             <div className="space-y-6">
-              <h1 className="text-5xl md:text-6xl font-bold leading-tight tracking-tighter">
+              <h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tighter">
               Vamos <br />
               <TypeAnimation
                     sequence={[
