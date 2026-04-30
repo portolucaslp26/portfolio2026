@@ -136,7 +136,7 @@ export default function Skills() {
             &gt;
             <TypeAnimation
                     sequence={[
-                      "principais_competencias.sh",
+                      "principais_competencias",
                       4000
                     ]}
                     wrapper="span"
