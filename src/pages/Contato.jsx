@@ -91,7 +91,7 @@ export default function Contato() {
                   />
               </h1>
               <p className="text-[#bdc1ca] text-sm md:text-base leading-relaxed max-w-md">
-                Pronto para otimizar sua arquitetura, modernizar sistemas legados ou implementar soluções inovadoras com tecnologia de ponta? Escolha o canal de sua preferência abaixo para iniciarmos a conversa.
+                Pronto para otimizar sua arquitetura, modernizar sistemas legados ou implementar soluções inovadoras com tecnologia de ponta? Escolha o canal de sua preferência para iniciarmos a conversa.
               </p>
             </div>
 

@@ -137,14 +137,12 @@ export default function Skills() {
             <TypeAnimation
                     sequence={[
                       "principais_competencias.sh",
-                      4000,
-                      "core_skills.sh",
                       4000
                     ]}
                     wrapper="span"
                     speed={50}
                     className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                    repeat={Infinity}
+                    repeat={1}
                   />
             </h1>
           </div>

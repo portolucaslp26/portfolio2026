@@ -29,7 +29,7 @@ export default function Sobre() {
             <div className="lg:col-span-4 space-y-8">
               <div className="aspect-square bg-[#171a1f] border border-[#323743] p-2 relative overflow-hidden group">
                 <div className="w-full h-full l overflow-hidden bg-[#e1f1fd]/90">
-                  <img src="\src\assets\profile-pic.png" alt="Lucas Porto" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+                  <img src="\assets\profile-pic.png" alt="Lucas Porto" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                 </div>
                 <div className="absolute inset-0 border border-[#323743] pointer-events-none" />
               </div>
@@ -90,16 +90,12 @@ export default function Sobre() {
                 <TypeAnimation
                     sequence={[
                       '"Complexidade deve ser encapsulada, não exposta. Construa sistemas que sejam difíceis de quebrar e fáceis de monitorar."',
-                      5000,
-                      '"Escalabilidade deve ser uma propriedade emergente, não um remendo posterior. Projete sistemas que cresçam sem reescrita e evoluam sem atrito."',
-                      5000,
-                      '"Automação deve substituir esforço repetitivo, não julgamento humano. Elimine tarefas mecânicas para que a engenharia se concentre em decisão, qualidade e inovação."',
                       5000
                     ]}
                     wrapper="span"
                     speed={70}
                     className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                    repeat={Infinity}
+                    repeat={1}
                   />
                 </p>
               </div>
@@ -116,15 +112,13 @@ export default function Sobre() {
               <span className="text-[#f3f4f6]">
                 <TypeAnimation
                   sequence={[
-                    "./execute_methodology.sh",
-                    4000,
                     "./metodologia_de_execucao.sh",
                     4000
                   ]}
                   wrapper="span"
                   speed={50}
                   className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                  repeat={Infinity}
+                  repeat={1}
                 />
               </span>
             </div>
@@ -230,15 +224,13 @@ export default function Sobre() {
               <span className="text-[#f3f4f6]">
                 <TypeAnimation
                   sequence={[
-                    "./avaliable_services.sh",
-                    4000,
                     "./servicos_disponiveis.sh",
                     4000
                   ]}
                   wrapper="span"
                   speed={50}
                   className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                  repeat={Infinity}
+                  repeat={1}
                 />
               </span>
             {/* </div> */}
