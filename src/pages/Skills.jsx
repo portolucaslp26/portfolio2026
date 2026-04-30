@@ -75,7 +75,7 @@ export default function Skills() {
       module: "MOD_02",
       description: "// Interfaces interativas, SPAs responsivas e componentização.",
       skills: [
-        { name: 'Angular', level: 'Avançado', score: 4, detail: 'SPAs complexas, RxJS, gerenciamento de estado.' },
+        { name: 'Angular', level: 'Avançado', score: 4, detail: 'SPAs responsivas, RxJS, gerenciamento de estado.' },
         { name: 'TypeScript', level: 'Avançado', score: 4, detail: 'Tipagem estática, interfaces, generics.' },
         { name: 'React', level: 'Intermediário', score: 3, detail: 'Componentes funcionais, hooks, ecossistema.' },
         { name: 'Tailwind CSS', level: 'Avançado', score: 4, detail: 'Estilização utilitária, design systems fluidos.' },
@@ -88,7 +88,7 @@ export default function Skills() {
       module: "MOD_03",
       description: "// Persistência, caching e comunicação assíncrona entre sistemas.",
       skills: [
-        { name: 'PostgreSQL', level: 'Avançado', score: 4, detail: 'Modelagem relacional, queries complexas, otimização.' },
+        { name: 'PostgreSQL', level: 'Avançado', score: 4, detail: 'Modelagem relacional, queries, PL/SQL, otimização.' },
         { name: 'Apache Kafka', level: 'Avançado', score: 4, detail: 'Arquiteturas orientadas a eventos (EDA).' },
         { name: 'Redis', level: 'Intermediário', score: 3, detail: 'Caching distribuído, filas em memória.' },
         { name: 'MongoDB', level: 'Intermediário', score: 3, detail: 'Modelagem de documentos, schema flexível.' },

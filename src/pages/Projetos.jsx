@@ -55,7 +55,7 @@ export default function Projetos() {
             </h1>
           </div>
           <p className="max-w-4xl text-lg leading-relaxed text-[#bdc1ca] border-b border-[#323743] pb-8">
-            Um registro técnico de MVPs construídos, monolitos modernizados e integrações complexas. Foco em escalabilidade, resiliência e código limpo.
+            Um registro técnico de MVPs construídos, monolitos modernizados e integrações sistêmicas. Foco em escalabilidade, resiliência e código limpo.
           </p>
         </section>
 
