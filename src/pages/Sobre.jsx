@@ -59,18 +59,12 @@ export default function Sobre() {
                 <span className="text-[#E0E0E0] font-['IBM_Plex_Mono']">
                   <TypeAnimation
                     sequence={[
-                      " escaláveis",
-                      4000,
-                      " seguros",
-                      4000,
-                      " performáticos",
-                      4000,
-                      " modernos"
+                      " escaláveis, seguros e resilientes."
                     ]}
                     wrapper="span"
                     speed={50}
                     className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                    repeat={Infinity}
+                    repeat={1}
                     />
                 </span>
               </h1>
