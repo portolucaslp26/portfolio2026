@@ -21,7 +21,7 @@ export default function Home() {
                 <span className="text-[10px] sm:text-xs uppercase tracking-wider">Status: Disponível para novos desafios</span>
               </div>
               
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-8 tracking-tighter">
+                <h3 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-8 tracking-tighter">
                   <span className="text-[#f3f4f6]">Lucas Porto —</span><br />
                   <TypeAnimation
                     sequence={[
@@ -33,7 +33,7 @@ export default function Home() {
                     className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
                     repeat={1}
                   />
-                </h1>
+                </h3>
               
               <p className="text-lg sm:text-xl text-[#bdc1ca] leading-relaxed max-w-2xl mb-12">
                 Especialista na construção de arquiteturas de microsserviços escaláveis, integrações de sistemas e pipelines de CI/CD robustos, potencializados por metodologias de Inteligência Artificial.
