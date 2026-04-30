@@ -75,19 +75,13 @@ export default function Contato() {
               Vamos <br />
               <TypeAnimation
                     sequence={[
-                      " alavancar seu negócio.",
-                      4000,
-                      " implementar soluções inovadoras.",
-                      4000,
-                      " otimizar sua arquitetura.",
-                      4000,
-                      " modernizar seus sistemas.",
-                      4000,
+                      " alavancar seu negócio implementando soluções inovadoras.",
+                      4000
                     ]}
                     wrapper="p"
                     speed={60}
                     className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                    repeat={Infinity}
+                    repeat={1}
                   />
               </h1>
               <p className="text-[#bdc1ca] text-sm md:text-base leading-relaxed max-w-md">
