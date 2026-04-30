@@ -25,7 +25,7 @@ export default function Home() {
                   <span className="text-[#f3f4f6]">Lucas Porto —</span><br />
                   <TypeAnimation
                     sequence={[
-                      "Soluções em Arquitetura e Desenvolvimento de Software, Cloud e IA",
+                      "Soluções em Arquitetura e Desenvolvimento de Software",
                       2000  
                     ]}
                     wrapper="span"
