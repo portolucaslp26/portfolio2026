@@ -20,7 +20,7 @@ export default function Home() {
                 <div className="w-2 h-2 bg-[#E0E0E0] rounded-full opacity-90" />
                 <span className="text-[10px] sm:text-xs uppercase tracking-wider">Status: Disponível para novos desafios</span>
               </div>
-              <h3 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-8 tracking-tighter">
+              <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-8 tracking-tighter">
                   <span className="text-[#f3f4f6]">Lucas Porto —</span><br />
               </h3>
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight mb-8 tracking-tighter">
