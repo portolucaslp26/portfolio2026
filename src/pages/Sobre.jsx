@@ -55,7 +55,7 @@ export default function Sobre() {
 
             <div className="lg:col-span-8 space-y-8">
               <h1 className="text-3xl md:text-4xl lg:text-[36px] leading-tight font-['Space_Mono']">
-                Desenvolvendo sistemas 
+                Desenvolvimento de sistemas 
                 <span className="text-[#E0E0E0] font-['IBM_Plex_Mono']">
                   <TypeAnimation
                     sequence={[
