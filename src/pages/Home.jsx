@@ -37,7 +37,7 @@ export default function Home() {
                 </h3>
               
               <p className="text-lg sm:text-xl text-[#bdc1ca] leading-relaxed max-w-2xl mb-12">
-                Especialista na construção de arquiteturas de microsserviços escaláveis, integrações de sistemas e pipelines de CI/CD robustos, potencializados por metodologias de Inteligência Artificial.
+                Especialista na construção de arquiteturas de microsserviços escaláveis, integrações de sistemas e pipelines de CI/CD, potencializados por metodologias de Inteligência Artificial.
               </p>
 
               <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4 sm:gap-4">
