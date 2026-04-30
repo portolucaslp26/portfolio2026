@@ -75,7 +75,7 @@ export default function Contato() {
               Vamos <br />
               <TypeAnimation
                     sequence={[
-                      " alavancar seu negócio implementando soluções inovadoras.",
+                      "juntos co-criar um futuro tecnológico.",
                       4000
                     ]}
                     wrapper="p"
