@@ -7,10 +7,10 @@ export default function Sobre() {
         <section>
           <div className="mb-8 text-sm">
             <div className="block sm:inline font-bold text-[#E0E0E0]">lucas@porto</div>
-            <div className="flex items-center gap-2 sm:inline-flex sm:ml-2">
-              <span className="text-[#f3f4f6]"></span>
+            {/* <div className="flex items-center gap-2 sm:inline-flex sm:ml-2"> */}
+              <span className="text-[#f3f4f6]">&nbsp;</span>
               <span className="text-[#bdc1ca]">$</span>
-              <span className="text-[#f3f4f6]">
+              <span className="text-[#f3f4f6]">&nbsp;
                 <TypeAnimation
                   sequence={[
                     "cat ./profile.md",
@@ -22,7 +22,7 @@ export default function Sobre() {
                   repeat={1}
                 />
               </span>
-            </div>
+            {/* </div> */}
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -106,10 +106,10 @@ export default function Sobre() {
         <section>
           <div className="mb-8 text-sm">
             <div className="block sm:inline font-bold text-[#E0E0E0]">lucas@porto</div>
-            <div className="flex items-center gap-2 sm:inline-flex sm:ml-2">
-              <span className="text-[#f3f4f6]"></span>
+            {/* <div className="flex items-center gap-2 sm:inline-flex sm:ml-2"> */}
+              <span className="text-[#f3f4f6]">&nbsp;</span>
               <span className="text-[#bdc1ca]">$</span>
-              <span className="text-[#f3f4f6]">
+              <span className="text-[#f3f4f6]">&nbsp;
                 <TypeAnimation
                   sequence={[
                     "./metodologia_de_execucao.sh",
@@ -121,7 +121,7 @@ export default function Sobre() {
                   repeat={1}
                 />
               </span>
-            </div>
+            {/* </div> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -219,9 +219,9 @@ export default function Sobre() {
           <div className="mb-8 text-sm">
             <div className="block sm:inline font-bold text-[#E0E0E0]">lucas@porto</div>
             {/* <div className="flex items-center gap-2 sm:inline-flex sm:ml-2"> */}
-              <span className="text-[#f3f4f6]"></span>
+              <span className="text-[#f3f4f6]">&nbsp;</span>
               <span className="text-[#bdc1ca]">$</span>
-              <span className="text-[#f3f4f6]">
+              <span className="text-[#f3f4f6]">&nbsp;
                 <TypeAnimation
                   sequence={[
                     "./servicos_disponiveis.sh",
