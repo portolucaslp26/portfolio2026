@@ -25,17 +25,13 @@ export default function Home() {
                   <span className="text-[#f3f4f6]">Lucas Porto —</span><br />
                   <TypeAnimation
                     sequence={[
-                      "Desenvolvimento de Software",
-                      2000,
-                      "Transformação Digital",
-                      2000,
-                      "Soluções em Cloud e IA",
+                      "Soluções em Arquitetura e Desenvolvimento de Software, Cloud e IA",
                       2000  
                     ]}
                     wrapper="span"
                     speed={50}
                     className="text-[#BDC1CA] font-['IBM_Plex_Mono']"
-                    repeat={Infinity}
+                    repeat={1}
                   />
                 </h1>
               
