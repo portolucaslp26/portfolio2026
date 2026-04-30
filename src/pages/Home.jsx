@@ -130,13 +130,13 @@ export default function Home() {
                   sequence={[
                     "habilidades-chave",
                     4000,
-                    "expertise-area",
-                    4000
+                    // "expertise-area",
+                    // 4000
                   ]}
                   wrapper="span"
                   speed={50}
                   className="text-[#f3f4f6]"
-                  repeat={Infinity}
+                  repeat={1}
                 />
               </h2>
             <p className="text-[#bdc1ca]">Fundamentos técnicos para construção de sistemas resilientes.</p>
