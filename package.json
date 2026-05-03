@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@iconify/react": "^6.0.2",
+    "@opencode-ai/sdk": "^1.14.33",
     "emailjs-com": "^3.2.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
