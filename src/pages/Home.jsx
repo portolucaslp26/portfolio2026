@@ -2,14 +2,6 @@ import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
-  const getAlternateTitle = (title) => {
-    const alternates = {
-      'Arquitetura Escalável': 'Sistemas Distribuídos',
-      'Integrações Complexas': 'API Management',
-      'CI/CD & Automação': 'DevOps Pipeline'
-    };
-    return alternates[title] || title;
-  };
   return (
     <div className="min-h-screen bg-black text-[#E0E0E0] font-['IBM_Plex_Mono'] selection:bg-white selection:text-black">
       <main className="py-16 sm:py-24">
@@ -147,7 +139,7 @@ export default function Home() {
                 imgPath: './assets/IMG_5.svg'
               },
               {
-                title: 'Integrações Complexas',
+                title: 'Integrações Sistêmicas',
                 desc: 'Orquestração de APIs, gateways e barramentos de mensageria conectando sistemas de forma segura.',
                 imgPath: './assets/IMG_6.svg'
               },
@@ -171,7 +163,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-32">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-32">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
             <div>
                 <h2 className="text-3xl font-bold mb-2">
@@ -182,8 +174,6 @@ export default function Home() {
                     2000,
                     "recent-projects",
                     2000,
-                    "últimos-trabalhos",
-                    2000
                   ]}
                   wrapper="span"
                   speed={50}
@@ -202,22 +192,11 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Fintech Core Banking',
-                desc: 'Modernização de legado monolítico para arquitetura baseada em microsserviços reduzindo latência em 40%.',
-                tags: ['Java', 'Spring Boot', 'Kafka', 'Kubernetes'],
-                img: './assets/IMG_9.webp'
-              },
-              {
-                title: 'AI Healthcare Pipeline',
-                desc: 'Plataforma de ingestão de dados médicos em tempo real com processamento via modelos de IA.',
-                tags: ['Python', 'FastAPI', 'AWS', 'TensorFlow'],
-                img: './assets/IMG_10.webp'
-              },
-              {
-                title: 'Global E-commerce API',
-                desc: 'Desenvolvimento de gateway GraphQL escalável unificando serviços de inventário e pagamento globais.',
-                tags: ['Node.js', 'GraphQL', 'Redis', 'Docker'],
-                img: './assets/IMG_11.webp'
+                title: 'Voip Academia',
+                desc: 'Landing page de conversão para academia de musculação, com foco em captação de leads e experiência visual de alto impacto.',
+                tags: ['Landing Page', 'Conversão', 'React', 'Tailwind CSS'],
+                img: './assets/screens-cases/voip-home.png',
+                link: 'https://voip-academia.vercel.app'
               }
             ].map((project, i) => (
               <div key={i} className="bg-black border border-[#323743] group overflow-hidden shadow-xl">
@@ -235,15 +214,15 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
-                  <Link to="/projetos" className="w-full flex items-center justify-between px-4 py-2 border border-[#f3f4f6] text-sm font-medium text-[#f3f4f6] hover:bg-white hover:text-black transition-all">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-between px-4 py-2 border border-[#f3f4f6] text-sm font-medium text-[#f3f4f6] hover:bg-white hover:text-black transition-all">
                     Ver case completo
                     <img src="./assets/IMG_8.svg" alt="Arrow" className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </Link>
+                  </a>
                 </div>
               </div>
             ))}
           </div>
-         </section> */}
+         </section>
 
          <section className="bg-[#171a1f]/50 border-y border-[#323743] py-24">
            <div className="max-w-3xl mx-auto px-4 text-center">
