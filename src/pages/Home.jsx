@@ -183,10 +183,10 @@ export default function Home() {
               </h2>
               <p className="text-[#bdc1ca]">Seleção de casos de estudo e modernização arquitetural.</p>
             </div>
-            <Link to="/projetos" className="flex items-center gap-3 text-sm font-medium text-[#E0E0E0] hover:translate-x-1 transition-transform">
+            {/* <Link to="/projetos" className="flex items-center gap-3 text-sm font-medium text-[#E0E0E0] hover:translate-x-1 transition-transform">
               Ver todos os projetos
               <img src="./assets/IMG_8.svg" alt="Arrow" className="w-4 h-4" />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
