@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Chatbot from './components/Chatbot';
+
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Projetos from './pages/Projetos';
@@ -23,7 +23,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
-          <Chatbot />
+          
         </div>
       </Router>
   );
